@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZ-104 Skills Measured</title>
+    <style>
+        h4 {
+            color: rgb(85, 84, 84);
+        }
+        .warning {
+            color: red;
+        }
+        #strike {
+            text-decoration: line-through;
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exam AZ-104: Microsoft Azure Administrator – Skills
+        Measured</h1>
+        <h4 class="warning">This exam will be updated on November 24, 2020. Following the current exam guide, we
+            have included a version of the exam guide with Track Changes set to “On,” showing the
+            changes that will be made to the exam on that date.</h4>
+        <h3>Audience Profile</h3>
+        <p>The Azure Administrator implements, manages, and monitors identity, governance, storage,
+            compute, and virtual networks in a cloud environment. The Azure Administrator will provision,
+            size, monitor, and adjust resources as appropriate.</p>
+        <p>Candidates should have a minimum of six months of hands-on experience administering Azure.
+            Candidates should have a strong understanding of core Azure services, Azure workloads,
+            security, and governance. Candidates for this exam should have experience in using PowerShell,
+            the Command Line Interface, Azure Portal, and ARM templates.</p>
+        <h3>Skills Measured</h3>
+        <p>NOTE: The bullets that appear below each of the skills measured are intended to illustrate how
+            we are assessing that skill. This list is not definitive or exhaustive.</p>
+        <p>NOTE: In most cases, exams do NOT cover preview features, and some features will only be
+            added to an exam when they are GA (General Availability).</p>
+        <h3>Manage Azure identities and governance (15-20%)</h3>
+        <h4>Manage Azure AD objects</h4>
+        <ul>
+            <li>create users and groups</li>
+            <li>manage user and group properties</li>
+            <li>manage device settings</li>
+            <li>perform bulk user updates</li>
+            <li>manage guest accounts</li>
+            <li>configure Azure AD Join</li>
+            <li>configure self-service password reset</li>
+            <li>NOT: Azure AD Connect; PIM</li>
+        </ul>
+        <h4>Manage role-based access control (RBAC)</h4>
+        <ul>
+            <li>create a custom role</li>
+            <li>provide access to Azure resources by assigning roles</li>
+            <ul>
+                <li>subscriptions</li>
+                <li>resource groups</li>
+                <li>resources (VM, disk, etc.)</li>
+            </ul>
+            <li>interpret access assignments</li>
+            <li>manage multiple directories</li>
+        </ul>
+        <h4>Manage subscriptions and governance</h4>
+        <ul>
+            <li>configure Azure policies</li>
+            <li>configure resource locks</li>
+            <li>apply tags</li>
+            <li>create and manage resource groups</li>
+            <ul>
+                <li>move resources</li>
+                <li>remove RGs</li>
+            </ul>
+            <li>manage subscriptions</li>
+            <li>configure Cost Management</li>
+            <li>configure management groups</li>
+        </ul>
+        <h3>Implement and manage storage (10-15%)</h3>
+        <h4>Manage storage accounts</h4>
+        <ul>
+            <li>configure network access to storage accounts</li>
+            <li>create and configure storage accounts</li>
+            <li>generate shared access signature</li>
+            <li>manage access keys</li>
+            <li>implement Azure storage replication</li>
+            <li>configure Azure AD Authentication for a storage account</li>
+        </ul>
+        <h4>Manage data in Azure Storage</h4>
+        <ul>
+            <li>export from Azure job</li>
+            <li>import into Azure job</li>
+            <li>install and use Azure Storage Explorer</li>
+            <li>copy data by using AZCopy</li>
+        </ul>
+        <h4>Configure Azure files and Azure blob storage</h4>
+        <ul>
+            <li>create an Azure file share</li>
+            <li>create and configure Azure File Sync service</li>
+            <li>configure Azure blob storage</li>
+            <li>configure storage tiers for Azure blobs</li>
+        </ul>
+        <h3>Deploy and manage Azure compute resources (25-30%)</h3>
+        <h4>Configure VMs for high availability and scalability</h4>
+        <ul>
+            <li>configure high availability</li>
+            <li>deploy and configure scale sets</li>
+        </ul>
+        <h4>Automate deployment and configuration of VMs</h4>
+        <ul>
+            <li>modify Azure Resource Manager (ARM) template</li>
+            <li>configure VHD template</li>
+            <li>deploy from template</li>
+            <li>save a deployment as an ARM template</li>
+            <li>automate configuration management by using custom script extensions</li>
+        </ul>
+        <h4>Create and configure VMs</h4>
+        <ul>
+            <li>configure Azure Disk Encryption</li>
+            <li>move VMs from one resource group to another</li>
+            <li>manage VM sizes</li>
+            <li>add data discs</li>
+            <li>configure networking</li>
+            <li>redeploy VMs</li>
+        </ul>
+        <h4>Create and configure containers</h4>
+        <ul>
+            <li>create and configure Azure Kubernetes Service (AKS)</li>
+            <li>create and configure Azure Container Instances (ACI)</li>
+            <li>NOT: selecting an container solution architecture or product; container registry settings</li>
+        </ul>
+        <h4>Create and configure Web Apps</h4>
+        <ul>
+            <li>create and configure App Service</li>
+            <li>create and configure App Service Plans</li>
+            <li>NOT: Azure Functions; Logic Apps; Event Grid</li>
+        </ul>
+        <h3>Configure and manage virtual networking (30-35%)</h3>
+        <h4>Implement and manage virtual networking</h4>
+        <ul>
+            <li>create and configure VNET peering</li>
+            <li>configure private and public IP addresses, network routes, network interface, subnets,
+                and virtual network</li>
+        </ul>
+        <h4>Configure name resolution</h4>
+        <ul>
+            <li>configure Azure DNS</li>
+            <li>configure custom DNS settings</li>
+            <li>configure a private or public DNS zone</li>
+        </ul>
+        <h4>Secure access to virtual networks</h4>
+        <ul>
+            <li>create security rules</li>
+            <li>associate an NSG to a subnet or network interface</li>
+            <li>evaluate effective security rules</li>
+            <li>deploy and configure Azure Firewall</li>
+            <li>deploy and configure Azure Bastion Service</li>
+            <li>NOT: Implement Application Security Groups; DDoS</li>
+        </ul>
+        <h4>Configure load balancing</h4>
+        <ul>
+            <li>configure Application Gateway</li>
+            <li>configure an internal load balancer</li>
+            <li>configure load balancing rules</li>
+            <li>configure a public load balancer</li>
+            <li>troubleshoot load balancing</li>
+            <li>NOT: Traffic Manager and FrontDoor and PrivateLink</li>
+        </ul>
+        <h4>Monitor and troubleshoot virtual networking</h4>
+        <ul>
+            <li>monitor on-premises connectivity</li>
+            <li>use Network Performance Monitor</li>
+            <li>use Network Watcher</li>
+            <li>troubleshoot external networking</li>
+            <li>troubleshoot virtual network connectivity</li>
+        </ul>
+        <h4>Integrate an on-premises network with an Azure virtual network</h4>
+        <ul>
+            <li>create and configure Azure VPN Gateway</li>
+            <li>create and configure VPNs</li>
+            <li>configure ExpressRoute</li>
+            <li>configure Azure Virtual WAN</li>
+        </ul>
+        <h3>Monitor and back up Azure resources (10-15%)</h3>
+        <h4>Monitor resources by using Azure Monitor</h4>
+        <ul>
+            <li>configure and interpret metrics</li>
+                <ul>
+                    <li>analyze metrics across subscriptions</li>
+                </ul>
+            <li>configure Log Analytics</li>
+                <ul>
+                    <li>implement a Log Analytics workspace</li>
+                    <li>configure diagnostic settings</li>
+                </ul>
+            <li>query and analyze logs</li>
+                <ul>
+                    <li>create a query</li>
+                    <li>save a query to the dashboard</li>
+                    <li>interpret graphs</li>
+                </ul>
+            <li>set up alerts and actions</li>
+                <ul>
+                    <li>create and test alerts</li>
+                    <li>create action groups</li>
+                    <li>view alerts in Azure Monitor</li>
+                    <li>analyze alerts across subscriptions</li>
+                </ul>
+            <li>configure Application Insights</li>
+            <li>NOT: Network monitoring</li>
+        </ul>
+        <h4>Implement backup and recovery</h4>
+        <ul>
+            <li>configure and review backup reports</li>
+            <li>perform backup and restore operations by using Azure Backup Service</li>
+            <li>create a Recovery Services Vault</li>
+                <ul>
+                    <li>use soft delete to recover Azure VMs</li>
+                </ul>
+            <li>create and configure backup policy</li>
+            <li>perform site-to-site recovery by using Azure Site Recovery</li>
+            <li>NOT: SQL or HANA</li>
+        </ul>
+        <h4 class="warning">The exam guide below shows the changes that will be implemented on November 24,
+            2020.</h4>
+        <h3>Skills Measured</h3>
+        <p>NOTE: The bullets that appear below each of the skills measured are intended to illustrate how
+            we are assessing that skill. This list is not definitive or exhaustive.</p>
+            <p>NOTE: In most cases, exams do NOT cover preview features, and some features will only be
+                added to an exam when they are GA (General Availability).</p>
+        <h3>Manage Azure identities and governance (15-20%)</h3>
+        <h4>Manage Azure AD objects</h4>
+        <ul>
+            <li>create users and groups</li>
+            <li>manage user and group properties</li>
+            <li>manage device settings</li>
+            <li>perform bulk user updates</li>
+            <li>manage guest accounts</li>
+            <li>configure Azure AD Join</li>
+            <li>configure self-service password reset</li>
+            <li>NOT: Azure AD Connect; PIM</li>
+        </ul>
+        <h4>Manage role-based access control (RBAC)</h4>
+        <ul>
+            <li>create a custom role</li>
+            <li>provide access to Azure resources by assigning roles</li>
+                <ul>
+                    <li>subscriptions</li>
+                    <li>resource groups</li>
+                    <li>resources (VM, disk, etc.)</li>
+                </ul>
+            <li>interpret access assignments</li>
+            <li>manage multiple directories</li>
+        </ul>
+        <h4>Manage subscriptions and governance</h4>
+        <ul>
+            <li>configure Azure policies</li>
+            <li>configure resource locks</li>
+            <li>apply tags</li>
+            <li>create and manage resource groups</li>
+                <ul>
+                    <li>move resources</li>
+                    <li>remove RGs</li>
+                </ul>
+            <li>manage subscriptions</li>
+            <li>configure Cost Management</li>
+            <li>configure management groups</li>
+        </ul>
+        <h3>Implement and manage storage (10-15%)</h3>
+        <h4>Manage storage accounts</h4>
+        <ul>
+            <li>configure network access to storage accounts</li>
+            <li>create and configure storage accounts</li>
+            <li>generate shared access signature</li>
+            <li>manage access keys</li>
+            <li>implement Azure storage replication</li>
+            <li>configure Azure AD Authentication for a storage account</li>
+        </ul>
+        <h4>Manage data in Azure Storage</h4>
+        <ul>
+            <li>export from Azure job</li>
+            <li>import into Azure job</li>
+            <li>install and use Azure Storage Explorer</li>
+            <li>copy data by using AZCopy</li>
+        </ul>
+        <h4>Configure Azure files and Azure blob storage</h4>
+        <ul>
+            <li>create an Azure file share</li>
+            <li>create and configure Azure File Sync service</li>
+            <li>configure Azure blob storage</li>
+            <li>configure storage tiers for Azure blobs</li>
+        </ul>
+        <h3>Deploy and manage Azure compute resources (25-30%)</h3>
+        <h4>Configure VMs for high availability and scalability</h4>
+        <ul>
+            <li>configure high availability</li>
+            <li>deploy and configure scale sets</li>
+        </ul>
+        <h4>Automate deployment and configuration of VMs</h4>
+        <ul>
+            <li>modify Azure Resource Manager (ARM) template</li>
+            <li>configure VHD template</li>
+            <li>deploy from template</li>
+            <li>save a deployment as an ARM template</li>
+            <li>automate configuration management by using custom script extensions</li>
+        </ul>
+        <h4>Create and configure VMs</h4>
+        <ul>
+            <li>configure Azure Disk Encryption</li>
+            <li>move VMs from one resource group to another</li>
+            <li>manage VM sizes</li>
+            <li>add data discs</li>
+            <li>configure networking</li>
+            <li>redeploy VMs</li>
+        </ul>
+        <h4>Create and configure containers</h4>
+        <ul>
+            <li>create and configure Azure Kubernetes Service (AKS)</li>
+            <li>create and configure Azure Container Instances (ACI)</li>
+            <li>NOT: selecting an container solution architecture or product; container registry settings</li>
+        
+        </ul>
+        <h4>Create and configure Web Apps</h4>
+        <ul>
+            <li>create and configure App Service</li>
+            <li>create and configure App Service Plans</li>
+            <li>NOT: Azure Functions; Logic Apps; Event Grid</li>
+        </ul>
+        <h3>Configure and manage virtual networking (30-35%)</h3>
+        <h4>Implement and manage virtual networking</h4>
+        <ul>
+            <li>create and configure VNET peering</li>
+            <li>configure private and public IP addresses, network routes, network interface, subnets,
+                and virtual network</li>
+        </ul>
+        <h4>Configure name resolution</h4>
+        <ul>
+            <li>configure Azure DNS</li>
+            <li>configure custom DNS settings</li>
+            <li>configure a private or public DNS zone</li>
+        </ul>
+        <h4>Secure access to virtual networks</h4>
+        <ul>
+            <li>create security rules</li>
+            <li>associate an NSG to a subnet or network interface</li>
+            <li>evaluate effective security rules</li>
+            <li>deploy and configure Azure Firewall</li>
+            <li>deploy and configure Azure Bastion Service</li>
+            <li>NOT: Implement Application Security Groups; DDoS</li>
+        </ul>
+        <h4>Configure load balancing</h4>
+        <ul>
+            <li>configure Application Gateway</li>
+            <li>configure an internal load balancer</li>
+            <li>configure load balancing rules</li>
+            <li>configure a public load balancer</li>
+            <li>troubleshoot load balancing</li>
+            <li>NOT: Traffic Manager and FrontDoor and PrivateLink</li>
+        </ul>
+        <h4>Monitor and troubleshoot virtual networking</h4>
+        <ul>
+            <li>monitor on-premises connectivity</li>
+            <li>use Network Performance Monitor</li>
+            <li>use Network Watcher</li>
+            <li>troubleshoot external networking</li>
+            <li>troubleshoot virtual network connectivity</li>
+        </ul>
+        <h4>Integrate an on-premises network with an Azure virtual network</h4>
+        <ul>
+            <li>create and configure Azure VPN Gateway</li>
+            <li>create and configure VPNs</li>
+            <li>configure ExpressRoute</li>
+            <li>configure Azure Virtual WAN</li>
+        </ul>
+        <h3>Monitor and back up Azure resources (10-15%)</h3>
+        <h4>Monitor resources by using Azure Monitor</h4>
+        <ul>
+            <li>configure and interpret metrics</li>
+                <ul>
+                    <li>analyze metrics across subscriptions</li>
+                </ul>
+            <li>configure Log Analytics</li>
+                <ul>
+                    <li>implement a Log Analytics workspace</li>
+                    <li>configure diagnostic settings</li>
+                </ul>
+            <li>query and analyze logs</li>
+                <ul>
+                    <li>create a query</li>
+                    <li>save a query to the dashboard</li>
+                    <li>interpret graphs</li>
+                </ul>
+            <li>set up alerts and actions</li>
+                <ul>
+                    <li>create and test alerts</li>
+                    <li>create action groups</li>
+                    <li>view alerts in Azure Monitor</li>
+                    <li>analyze alerts across subscriptions</li>
+                </ul>
+            <li>configure Application Insights</li>
+            <li>NOT: Network monitoring</li>
+        </ul>
+    <h4>Implement backup and recovery</h4>
+    <ul>
+        <li>configure and review backup reports</li>
+        <li>perform backup and restore operations by using Azure Backup <span id="strike">Service</span></li>
+        <li>create a Recovery Services Vault</li>
+            <ul>
+                <li>use soft delete to recover Azure VMs</li>
+            </ul>
+        <li>create and configure backup policy</li>
+        <li>perform site-to-site recovery by using Azure Site Recovery</li>
+        <li>NOT: SQL or HANA</li>
+    </ul>
+</body>
+</html>
